@@ -55,8 +55,8 @@ Built as a multi-tier system: an **Angular** SPA, a **.NET 8 Web API**, a **Pyth
                          │              │
         ┌────────────────▼─────┐  ┌─────▼──────────────────┐
         │  SQL Server          │  │  FastAPI AI service    │
-        │  28 tables           │  │  (FixMyCity.AI)        │
-        │  36 stored procs     │  │  HF / Groq / Gemini    │
+        │  37 tables           │  │  (FixMyCity.AI)        │
+        │  60+ stored procs    │  │  HF / Groq / Gemini    │
         │  Row-Level Security  │  │  LightGBM scoring      │
         └──────────────────────┘  └────────────────────────┘
 ```
@@ -197,10 +197,10 @@ All seeded passwords: `Password123!`
 |---|---|---|
 | Duplicate detection | `sentence-transformers/all-MiniLM-L6-v2` | `POST /api/ML/CheckDuplicates` |
 | Image classification | `openai/clip-vit-base-patch32` | `POST /api/ML/AnalyzeImage` |
-| Conversational assistant | `mistralai/Mistral-7B-Instruct-v0.3` | `POST /ai/chat` |
-| Toxicity moderation | `unitary/toxic-bert` | `POST /ai/check-toxicity` |
-| Keyword tagging | HF embeddings + KeyBERT | `POST /ai/tag-complaint` |
-| Priority / ETA / probability | LightGBM regressor | `POST /api/ML/score-complaint` |
+| Conversational assistant | `mistralai/Mistral-7B-Instruct-v0.3` | `POST /chat` (AI service) |
+| Toxicity moderation | `unitary/toxic-bert` | `POST /check-toxicity` (AI service) |
+| Keyword tagging | HF embeddings + KeyBERT shim | `POST /tag-complaint` (AI service) |
+| Priority / ETA / probability | LightGBM regressor | `POST /score-complaint` (AI service) |
 
 All HF calls go through the serverless Inference API — no local model downloads required, only an `HF_API_TOKEN` in `.env`.
 
@@ -234,9 +234,3 @@ Grouped by area. Every story has a corresponding endpoint, repository method, an
 ## License
 
 Educational / portfolio project. QuestPDF is used under its Community license. Hugging Face / Groq / Gemini free tiers cover demo-level traffic; production use requires paid plans.
-
----
-
-## Author
-
-**Syamantak May** — full-stack & AI engineering. Reach me at [syamantakmay@gmail.com](mailto:syamantakmay@gmail.com).
