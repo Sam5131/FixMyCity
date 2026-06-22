@@ -222,6 +222,62 @@ Grouped by area. Every story has a corresponding endpoint, repository method, an
 
 ---
 
+## Team
+
+Built during the **Infosys Software Engineering Internship** (Jan–May 2026, Mysore DC) by a team of five.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Sam5131">
+        <img src="https://github.com/Sam5131.png" width="80px" alt="Syamantak Paul"/><br/>
+        <sub><b>Syamantak Paul</b></sub>
+      </a><br/>
+      <a href="https://www.linkedin.com/in/syamantakpaul">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/rohan-gupta-b8498a32b">
+        <img src="https://ui-avatars.com/api/?name=Rohan+Gupta&size=80&background=DD0031&color=fff&rounded=true" width="80px" alt="Rohan Gupta"/><br/>
+        <sub><b>Rohan Gupta</b></sub>
+      </a><br/>
+      <a href="https://www.linkedin.com/in/rohan-gupta-b8498a32b">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/ayushkr22">
+        <img src="https://ui-avatars.com/api/?name=Ayush+Kumar&size=80&background=009688&color=fff&rounded=true" width="80px" alt="Ayush Kumar"/><br/>
+        <sub><b>Ayush Kumar</b></sub>
+      </a><br/>
+      <a href="https://www.linkedin.com/in/ayushkr22">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/alokikagarwal">
+        <img src="https://ui-avatars.com/api/?name=Alokik+Agarwal&size=80&background=512BD4&color=fff&rounded=true" width="80px" alt="Alokik Agarwal"/><br/>
+        <sub><b>Alokik Agarwal</b></sub>
+      </a><br/>
+      <a href="https://www.linkedin.com/in/alokikagarwal">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/supriya-katiyar07">
+        <img src="https://ui-avatars.com/api/?name=Supriya+Katiyar&size=80&background=CC2927&color=fff&rounded=true" width="80px" alt="Supriya Katiyar"/><br/>
+        <sub><b>Supriya Katiyar</b></sub>
+      </a><br/>
+      <a href="https://www.linkedin.com/in/supriya-katiyar07">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Known limitations
 
 - First Hugging Face call is slow (~10s cold start); subsequent calls are fast.
